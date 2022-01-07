@@ -1,0 +1,17 @@
+{
+    "name": "BluxFoxBot",
+    "version": "1.0.0",
+    "description": "Bot host for server 2y2c",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "glob": "^7.1.7",
+        "mongoose": "^6.0.2"
+    }
+}
