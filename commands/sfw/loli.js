@@ -4,12 +4,12 @@ module.exports = {
     name: "loli",
     description: "một em loli dễ thương",
     aliases: ['lolicon'],
-    run: async(message, args, client) => {
+    run: async(client, message, args) => {
         try {
             const data = fetch('https://lolis.clph.me/loli')
             const res = await data.json();
             const imageEmbed = MessageEmbed()
-            .setDescription(`${message.author.username} Của bạn đây: [xem rõ hơn](${image.url})`)
+            .setDescription(`${message.author.username} Của bạn đây: [xem rõ hơn](${res.url})`)
             .setColor("BLUE")
             .setImage(res.url)
             message.channel.send(imageEmbed)
