@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js-selfbot")
 const fetch = require('node-fetch');
-const api_key = require('6Z97cipHvbVj7pgQb0m7jjag6EqiOfWwxMF54LXI9YWGE8Fs72')
+const api_key = '6Z97cipHvbVj7pgQb0m7jjag6EqiOfWwxMF54LXI9YWGE8Fs72'
 module.exports = {
   name: "girl",
   description: "một em loli dễ thương",
