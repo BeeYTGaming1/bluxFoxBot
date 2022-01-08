@@ -1,7 +1,7 @@
 const client = require("../index");
 
 client.on("message", async (message) => {
-    if(message.channel.id === '924633711369146418' ||
+    if(message.channel.id === '748529588136837191' ||
       message.author.bot) message.channel.send("Leen leve")
     if (
         message.author.bot ||
